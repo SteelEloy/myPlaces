@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		9E2E758B23BAAAD700686542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E758A23BAAAD700686542 /* AppDelegate.swift */; };
 		9E2E758D23BAAAD700686542 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E758C23BAAAD700686542 /* SceneDelegate.swift */; };
-		9E2E758F23BAAAD700686542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E758E23BAAAD700686542 /* ViewController.swift */; };
 		9E2E759223BAAAD700686542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2E759023BAAAD700686542 /* Main.storyboard */; };
 		9E2E759523BAAAD700686542 /* myPlaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E759323BAAAD700686542 /* myPlaces.xcdatamodeld */; };
 		9E2E759723BAAAD800686542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2E759623BAAAD800686542 /* Assets.xcassets */; };
 		9E2E759A23BAAAD800686542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2E759823BAAAD800686542 /* LaunchScreen.storyboard */; };
+		9E2E75A223BAAEF700686542 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E75A123BAAEF700686542 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E2E758723BAAAD700686542 /* myPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2E758A23BAAAD700686542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E2E758C23BAAAD700686542 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E2E758E23BAAAD700686542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E2E759123BAAAD700686542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E2E759423BAAAD700686542 /* myPlaces.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myPlaces.xcdatamodel; sourceTree = "<group>"; };
 		9E2E759623BAAAD800686542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E2E759923BAAAD800686542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E2E759B23BAAAD900686542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2E75A123BAAEF700686542 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				9E2E758A23BAAAD700686542 /* AppDelegate.swift */,
 				9E2E758C23BAAAD700686542 /* SceneDelegate.swift */,
-				9E2E758E23BAAAD700686542 /* ViewController.swift */,
 				9E2E759023BAAAD700686542 /* Main.storyboard */,
+				9E2E75A123BAAEF700686542 /* MainViewController.swift */,
 				9E2E759623BAAAD800686542 /* Assets.xcassets */,
 				9E2E759823BAAAD800686542 /* LaunchScreen.storyboard */,
 				9E2E759B23BAAAD900686542 /* Info.plist */,
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E2E758F23BAAAD700686542 /* ViewController.swift in Sources */,
 				9E2E758B23BAAAD700686542 /* AppDelegate.swift in Sources */,
 				9E2E758D23BAAAD700686542 /* SceneDelegate.swift in Sources */,
 				9E2E759523BAAAD700686542 /* myPlaces.xcdatamodeld in Sources */,
+				9E2E75A223BAAEF700686542 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
