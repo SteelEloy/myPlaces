@@ -14,6 +14,7 @@
 		9E2E759723BAAAD800686542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2E759623BAAAD800686542 /* Assets.xcassets */; };
 		9E2E759A23BAAAD800686542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2E759823BAAAD800686542 /* LaunchScreen.storyboard */; };
 		9E2E75A223BAAEF700686542 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E75A123BAAEF700686542 /* MainViewController.swift */; };
+		9E685FCF23C93634000EB1DF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E685FCE23C93634000EB1DF /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9E2E759923BAAAD800686542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E2E759B23BAAAD900686542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E2E75A123BAAEF700686542 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9E685FCE23C93634000EB1DF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9E2E758C23BAAAD700686542 /* SceneDelegate.swift */,
 				9E2E759023BAAAD700686542 /* Main.storyboard */,
 				9E2E75A123BAAEF700686542 /* MainViewController.swift */,
+				9E685FCE23C93634000EB1DF /* CustomTableViewCell.swift */,
 				9E2E759623BAAAD800686542 /* Assets.xcassets */,
 				9E2E759823BAAAD800686542 /* LaunchScreen.storyboard */,
 				9E2E759B23BAAAD900686542 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E2E758B23BAAAD700686542 /* AppDelegate.swift in Sources */,
+				9E685FCF23C93634000EB1DF /* CustomTableViewCell.swift in Sources */,
 				9E2E758D23BAAAD700686542 /* SceneDelegate.swift in Sources */,
 				9E2E759523BAAAD700686542 /* myPlaces.xcdatamodeld in Sources */,
 				9E2E75A223BAAEF700686542 /* MainViewController.swift in Sources */,
