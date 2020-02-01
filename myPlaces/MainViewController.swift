@@ -77,6 +77,11 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     // MARK: Table view delegate
+    
+    // Убираем выделение ячейки после возврата на главное окно
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
     // Удален с ios13
 //    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
 //        let place = places[indexPath.row]
