@@ -18,6 +18,7 @@
 		9E609DCC23E5491B00179E5B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E609DCB23E5491B00179E5B /* RatingControl.swift */; };
 		9E685FCF23C93634000EB1DF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E685FCE23C93634000EB1DF /* CustomTableViewCell.swift */; };
 		9E685FD123C93E1B000EB1DF /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E685FD023C93E1B000EB1DF /* PlaceModel.swift */; };
+		9E6FDA7D24083D5A009EA6F6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6FDA7C24083D5A009EA6F6 /* MapViewController.swift */; };
 		9E781E5223CAAC2A0097AF6F /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E781E5123CAAC2A0097AF6F /* NewPlaceViewController.swift */; };
 		9EC0CC3823CFBC4000A54443 /* Pods_myPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4450B423CFBB03001C3B7A /* Pods_myPlaces.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		9E609DCB23E5491B00179E5B /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		9E685FCE23C93634000EB1DF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		9E685FD023C93E1B000EB1DF /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		9E6FDA7C24083D5A009EA6F6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9E781E5123CAAC2A0097AF6F /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		9E86ED6423CFB89B00FE3B73 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E86ED6723CFB8B300FE3B73 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				9E2E758A23BAAAD700686542 /* AppDelegate.swift */,
 				9E2E758C23BAAAD700686542 /* SceneDelegate.swift */,
 				9E2E759023BAAAD700686542 /* Main.storyboard */,
+				9E6FDA7C24083D5A009EA6F6 /* MapViewController.swift */,
 				9E781E5123CAAC2A0097AF6F /* NewPlaceViewController.swift */,
 				9E2E75A123BAAEF700686542 /* MainViewController.swift */,
 				9E685FD023C93E1B000EB1DF /* PlaceModel.swift */,
@@ -241,6 +244,7 @@
 				9E2E758B23BAAAD700686542 /* AppDelegate.swift in Sources */,
 				9E685FD123C93E1B000EB1DF /* PlaceModel.swift in Sources */,
 				9E685FCF23C93634000EB1DF /* CustomTableViewCell.swift in Sources */,
+				9E6FDA7D24083D5A009EA6F6 /* MapViewController.swift in Sources */,
 				9E2E758D23BAAAD700686542 /* SceneDelegate.swift in Sources */,
 				9E609DCC23E5491B00179E5B /* RatingControl.swift in Sources */,
 				9E781E5223CAAC2A0097AF6F /* NewPlaceViewController.swift in Sources */,
